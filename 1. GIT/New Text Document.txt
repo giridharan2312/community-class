@@ -1,0 +1,53 @@
+Set Git config
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+
+Initialize a Git repo
+git init
+
+Clone a repository
+git clone <repository-url>
+
+Check repo status
+git status
+
+Add files
+git add <file-name>
+git add . (for all files)
+
+Commit changes
+git commit -m "Commit message"
+
+View commit history
+git log
+
+Push changes
+git push origin <branch-name>
+
+Pull changes
+git pull origin <branch-name>
+
+Create a new branch
+git checkout -b <new-branch-name>
+
+Switch branches
+git checkout <branch-name>
+
+Merge branches
+git merge <branch-name>
+
+Remove files
+git rm <file-name>
+
+Stash changes
+git stash
+
+View stashed changes
+git stash list
+
+Undo changes
+git checkout -- <file-name>
+
+Delete a branch
+git branch -d <branch-name> (local)
+git push origin --delete <branch-name> (remote)

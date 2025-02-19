@@ -1,0 +1,34 @@
+git init
+git add names.txt
+git status
+
+git commit -m "message: names.txt file added"
+git status
+
+touch names.txt
+vi names.txt (create and open new file)
+cat names.txt (view the content of the file)
+
+
+ctrl + L 
+clear 
+for clear screen
+
+git log 
+(commit_id)
+
+git reset (commit_id)
+
+$ git remote add origin https://github.com/giridharan2312/community-class.git
+git remote -vi
+
+git push origin master
+
+remove file/folder
+rm -rf test/
+
+git branch feature
+git checkout feature
+
+(switched from master to feature branch)
+
